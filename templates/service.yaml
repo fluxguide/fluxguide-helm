@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: kubernetes-node
+spec:
+  selector:
+    app: kubernetes-node
+  ports:
+    - protocol: TCP
+      port: {{ .Values.service.node.port }}
+  type: LoadBalancer
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: kubernetes-nginx
+spec:
+  selector:
+    app: kubernetes-nginx
+  ports:
+    - protocol: TCP
+      port: {{ .Values.service.nginx.port }}
+      targetPort: {{ .Values.service.nginx.targetPort }}
+  type: LoadBalancer
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: kubernetes-postgres
+spec:
+  selector:
+    app: kubernetes-postgres
+  ports:
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432
+  type: ClusterIP
