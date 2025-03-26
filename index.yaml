@@ -3,12 +3,12 @@ entries:
   testingchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-21T11:26:00.666237+01:00"
+    created: "2025-03-26T14:50:21.878273+01:00"
     description: A Helm chart for Kubernetes
-    digest: 1f6fdf5087a5639d33bf857e91adefcdf8e65f1178dd1ff1ae1c96447da17cfd
+    digest: 5862dfdd0c5b3825fa26e03ce1e05d8789637842f4e382719703d8ccd2c0f3ac
     name: testingchart
     type: application
     urls:
     - https://fluxguide.github.io/fluxguide-helm/testingchart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-21T11:26:00.664743+01:00"
+generated: "2025-03-26T14:50:21.87776+01:00"
