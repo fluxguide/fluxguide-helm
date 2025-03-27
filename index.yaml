@@ -3,9 +3,9 @@ entries:
   my-app-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-27T09:40:26.186563+01:00"
+    created: "2025-03-27T10:03:16.480272+01:00"
     description: A Helm chart for Kubernetes
-    digest: 5f85cdfc3720d9f5a0a06234ac17be2296cdf4e78474e6caccf9a3d0a41d9db4
+    digest: 3a67de58c62e0cf69709bdbdca941b3c9d9153302c5db2b73b3595b6088792c3
     name: my-app-chart
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   my-cms-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-27T09:40:26.186924+01:00"
+    created: "2025-03-27T10:03:16.480719+01:00"
     description: A Helm chart for Kubernetes
-    digest: a4cacf513138897174f64a276b2f1a473a8baba0b7e1b5953cfd48c8ec931639
+    digest: 74b55e130dc2115e912ee756dc7a573c5a5667ea0bd346c63297951fd01c58b1
     name: my-cms-chart
     type: application
     urls:
@@ -25,7 +25,7 @@ entries:
   testingchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-27T09:40:26.187269+01:00"
+    created: "2025-03-27T10:03:16.48125+01:00"
     description: A Helm chart for Kubernetes
     digest: 673368aea9e7d081b9bd93909fd2035056416bd4f712daa518e5cf3aca7e376d
     name: testingchart
@@ -33,4 +33,4 @@ entries:
     urls:
     - https://fluxguide.github.io/fluxguide-helm/testingchart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-27T09:40:26.185824+01:00"
+generated: "2025-03-27T10:03:16.478978+01:00"
