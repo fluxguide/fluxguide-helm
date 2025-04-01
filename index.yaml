@@ -1,36 +1,21 @@
 apiVersion: v1
 entries:
-  my-app-chart:
+  qantas-api:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-03-27T10:03:16.480272+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 3a67de58c62e0cf69709bdbdca941b3c9d9153302c5db2b73b3595b6088792c3
-    name: my-app-chart
+    appVersion: 1.0.0
+    created: "2025-04-01T16:35:14.227373+02:00"
+    description: A Helm chart for the Qantas API stack with Node.js, Nginx, and PostgreSQL
+    digest: 29827872d1da43467615c7466aa507003bf6a544aeca72affe123b90089ca4a1
+    keywords:
+    - api
+    - node
+    - postgres
+    - nginx
+    maintainers:
+    - name: Qantas Team
+    name: qantas-api
     type: application
     urls:
-    - https://fluxguide.github.io/fluxguide-helm/my-app-chart-0.1.0.tgz
+    - https://fluxguide.github.io/fluxguide-helm/qantas-api-0.1.0.tgz
     version: 0.1.0
-  my-cms-chart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-03-27T10:03:16.480719+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 74b55e130dc2115e912ee756dc7a573c5a5667ea0bd346c63297951fd01c58b1
-    name: my-cms-chart
-    type: application
-    urls:
-    - https://fluxguide.github.io/fluxguide-helm/my-cms-chart-0.1.0.tgz
-    version: 0.1.0
-  testingchart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-03-27T10:03:16.48125+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 673368aea9e7d081b9bd93909fd2035056416bd4f712daa518e5cf3aca7e376d
-    name: testingchart
-    type: application
-    urls:
-    - https://fluxguide.github.io/fluxguide-helm/testingchart-0.1.0.tgz
-    version: 0.1.0
-generated: "2025-03-27T10:03:16.478978+01:00"
+generated: "2025-04-01T16:35:14.226589+02:00"
